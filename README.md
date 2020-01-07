@@ -17,6 +17,16 @@ tar xvzf go1.13.5.linux-armv6l.tar.gz -C /usr/local/
 ln -s /usr/local/go/bin/go* /usr/local/bin/
 ```
 
+install `docker` :
+
+```bash
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=armhf] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
 install `Nodejs` and `npm` :
 
 ```bash
