@@ -3,7 +3,7 @@ Build Lantern for armhf devices like Raspberry Pi
 
 [![release](https://img.shields.io/github/release/getlantern/lantern.svg)](https://github.com/getlantern/lantern/releases/latest)
 
-![Alt text](/../master/banner.png?raw=true "Screenshot")
+![Alt text](/../master/banner.png?raw=true "Banner")
 
 
 Manual Build Instructions
@@ -48,4 +48,13 @@ cd lantern/archive/
 make linux-arm
 ```
 
+Install and Launch
+------------------
+
+```bash
+sudo dpkg -i lantern_VERSION_armhf.deb
+lantern
+```
+
+![Alt text](/../master/screenshot.png?raw=true "Screenshot")
 
