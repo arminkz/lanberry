@@ -7,6 +7,10 @@
 
 VERSION=5.6.4
 
+echo "cloning lantern..."
+git clone https://github.com/getlantern/lantern.git
+cd lantern/archive/
+
 # build arm-v7
 sed -i 's/GOARM=6/GOARM=7/' Makefile
 VERSION=$VERSION make linux-arm

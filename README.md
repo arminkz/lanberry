@@ -40,13 +40,15 @@ install `gulp.js` :
 sudo npm install -g gulp-cli
 ```
 
-clone `lantern` and build: 
+clone `lanberry` and start build: 
 
 ```bash
-git clone https://github.com/getlantern/lantern.git
-cd lantern/archive/
-make linux-arm
+git clone https://github.com/arminkz/lanberry.git
+cd lanberry
+sudo chmod +x build.sh
+./build.sh
 ```
+
 
 Install and Launch
 ------------------
